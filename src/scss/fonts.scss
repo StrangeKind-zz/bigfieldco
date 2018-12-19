@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'bc-demi';
+    src: url('../../src/fonts/bc_web.eot');
+    src:
+        local('☺'),
+        url('../../src/fonts/bc_web.woff') format('woff'),
+        url('../../src/fonts/bc_web.ttf') format('truetype'),
+        url('../../src/fonts/bc_web.svg') format('svg');
+    font-weight: regular;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre');

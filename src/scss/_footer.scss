@@ -1,0 +1,202 @@
+footer {
+  padding: 5vw 0 0 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.footer {
+
+  &--inner {
+    width: 100%;
+    height: 100%;
+    background: #161616;
+    overflow: hidden;
+
+    &__about {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    &__top {
+      width: 100%;
+      display: block;
+      align-items: center;
+      justify-content: space-between;
+
+      @media (min-width: 510px) {
+      }
+      @media (min-width: 768px) {
+        display: flex;
+      }
+      @media (min-width: 992px) {
+      }
+      @media (min-width: 1200px) {
+      }
+
+      ul {
+        -webkit-padding-start: 0px;
+        -webkit-margin-after: 0em;
+
+        li {
+          display: inline-block;
+          list-style: none;
+          margin-left: 0px;
+          margin-right: 40px;
+          margin-bottom: 50px;
+          font-family: $font-secondary;
+          color: #a3a3a3;
+          position: relative;
+          overflow: hidden;
+
+          @media (min-width: 510px) {
+          }
+          @media (min-width: 768px) {
+            margin-left: 40px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+          }
+          @media (min-width: 992px) {
+          }
+          @media (min-width: 1200px) {
+          }
+
+          a {
+            width: 100%;
+            height: 100%;
+            display: block;
+            position: relative;
+
+            img {
+              width: 100%;
+              max-height: auto;
+            }
+
+            span {
+              position: absolute;
+              bottom: -100%;
+              left: 3px;
+            }
+
+            transition: $transition-main;
+            transform: scale(1);
+
+            &:hover {
+              transform: scale(0.9);
+              opacity: 0.9;
+            }
+          }
+        }
+      }
+
+      h5 {
+        color: #a3a3a3;
+        margin-bottom: 30px;
+      }
+
+      p {
+        color: #a3a3a3;
+      }
+    }
+
+    &__bottom {
+      width: 100%;
+      font-family: $font-secondary;
+      color: #a3a3a3;
+
+      &-tag {
+        margin-bottom: 15px;
+
+        @media (min-width: 768px) {
+          margin-bottom: 0;
+        }
+      }
+
+      a {
+        color: #ececec;
+        overflow: hidden;
+        position: relative;
+
+        &:before {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: 1px;
+          background: $light;
+          opacity: 0.7;
+          z-index: 2;
+          content: "";
+          display: inline-block;
+          transition: $transition-main;
+          transform: scaleX(0);
+          transform-origin: left;
+        }
+
+        &:hover {
+          text-decoration: none;
+
+          &:before {
+            transform: scaleX(1);
+            transform-origin: left;
+          }
+        }
+      }
+
+      ul {
+        -webkit-padding-start: 0px;
+        -webkit-margin-after: 0em;
+        margin-bottom: 20px;
+
+        @media (min-width: 768px) {
+          margin-bottom: 0;
+        }
+
+        li {
+          display: inherit;
+          list-style: none;
+          margin-right: 15px;
+          font-family: $font-secondary;
+          color: #a3a3a3;
+          margin-top: 5px;
+
+          @media (min-width: 768px) {
+            display: inline-block;
+            margin-top: 0;
+          }
+
+          a {
+            color: #ececec;
+            overflow: hidden;
+            position: relative;
+
+            &:before {
+              position: absolute;
+              left: 0;
+              bottom: 0;
+              width: 100%;
+              height: 1px;
+              background: $light;
+              opacity: 0.7;
+              z-index: 2;
+              content: "";
+              display: inline-block;
+              transition: $transition-main;
+              transform: scaleX(0);
+              transform-origin: left;
+            }
+
+            &:hover {
+              text-decoration: none;
+
+              &:before {
+                transform: scaleX(1);
+                transform-origin: left;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
