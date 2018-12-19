@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>icon--social__facebookmdpi/</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01_Homepage" transform="translate(-608.000000, -4387.000000)" fill="#FFFFFF">
+            <g id="footer" transform="translate(0.000000, 4200.000000)">
+                <g id="icon--social__facebook" transform="translate(608.000000, 187.000000)">
+                    <path d="M22.5,42 C33.27,42 42,33.27 42,22.5 C42,11.73 33.27,3 22.5,3 C11.73,3 3,11.73 3,22.5 C3,33.27 11.73,42 22.5,42 M22.5,45 C10.074,45 0,34.926 0,22.5 C0,10.074 10.074,0 22.5,0 C34.926,0 45,10.074 45,22.5 C45,34.926 34.926,45 22.5,45" id="Page-1"></path>
+                    <path d="M24.4859953,16.9599867 C24.4859953,16.0146716 24.582861,15.5128376 26.0358453,15.5128376 L27.9766589,15.5128376 L27.9766589,12 L24.8699567,12 C21.1400467,12 19.825942,13.7505835 19.825942,16.7032344 L19.825942,18.9906636 L17.5,18.9906636 L17.5,22.5035012 L19.825942,22.5035012 L19.825942,33.0070023 L24.4801601,33.0070023 L24.4801601,22.5035012 L27.5868623,22.5035012 L28,18.9906636 L24.4801601,18.9906636 L24.4859953,16.9599867 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,48 @@
+.article {
+
+  &--banner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    color: $light;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $brand-colour;
+
+    h2 {
+      font-family: $font-primary;
+      font-size: 38px;
+    }
+  }
+
+  &--content {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    color: #cecece;
+    font-family: $font-secondary;
+    font-size: 16px;
+    line-height: 24px;
+
+    ul {
+
+      li {
+        margin-top: 8px;
+        margin-bottom: 8px;
+      }
+    }
+
+
+    h2 {
+      margin-top: 50px;
+      color: $light;
+      font-size: 24px;
+      font-family: $font-primary;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+  }
+}
